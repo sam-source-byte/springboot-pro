@@ -1,7 +1,8 @@
 package com.zhuguang.sam;
 
 /**
- * Hello world!
+ * IDEA上传项目到GitHub仓库详细步骤
+ * https://blog.csdn.net/jesseakylin/article/details/96120600
  *
  */
 public class App 
