@@ -24,7 +24,7 @@ public class HelloController    {
     //http://localhost:8080/hello
     @RequestMapping("/hello")
     public  String hello(){
-        return "hello,Spring Boot!"+dataSource;
+        return "hello,Spring Boot!";
     }
 
 }
