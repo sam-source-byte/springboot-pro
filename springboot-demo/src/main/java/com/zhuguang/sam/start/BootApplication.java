@@ -2,6 +2,7 @@ package com.zhuguang.sam.start;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import tk.mybatis.spring.annotation.MapperScan;
 
 /**
  * @Auther: Sam
@@ -9,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Description:
  */
 @SpringBootApplication(scanBasePackages = {"com.zhuguang.sam"})
+@MapperScan("com.zhuguang.sam.mapper")
 public class BootApplication {
     public static void main(String[] args) {
         SpringApplication.run(BootApplication.class,args);

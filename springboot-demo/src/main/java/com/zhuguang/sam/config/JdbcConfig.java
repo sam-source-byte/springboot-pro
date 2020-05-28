@@ -15,7 +15,7 @@ import javax.sql.DataSource;
  * @Date: 2020/3/25 11:02
  * @Description:
  */
-@Configuration
+//@Configuration
 //@PropertySource("classpath:jdbc.properties")
 //@EnableConfigurationProperties(JdbcProperties.class)
 public class JdbcConfig {
@@ -45,10 +45,10 @@ public class JdbcConfig {
         druidDataSource.setPassword(prop.getPassword());
         return druidDataSource;
     }*/
-   @Bean
+   //@Bean
    //默认找application.properties里面jdbc前缀开头的配置
-   @ConfigurationProperties(prefix = "jdbc")
-    public DataSource dataSource(){
-        return  new DruidDataSource();
-    }
+   //@ConfigurationProperties(prefix = "jdbc")
+//   public DataSource dataSource(){
+//        return  new DruidDataSource();
+//    }
 }
