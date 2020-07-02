@@ -1,16 +1,15 @@
 package com.zhuguang.sam.mapper;
 
-import com.zhuguang.sam.pojo.TbUser;
-import tk.mybatis.mapper.common.Mapper;
+import com.zhuguang.sam.pojo.TStudent;
+import tk.mybatis.mapper.common.BaseMapper;
 
 /**
  * 欢迎大家来我的github地址围观我的商城项目：
  * https://github.com/sam-source-byte
  *
- * @author Sam
  * @Auther: Sam
- * @Date: 2020/5/27 23:16
+ * @Date: 2020/6/18 19:49
  * @Description:
  */
-public interface TbUserMapper extends Mapper<TbUser> {
+public interface TStudentMapper extends BaseMapper<TStudent> {
 }
